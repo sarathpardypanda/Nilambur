@@ -12,7 +12,7 @@ protocol NetworkCheckObserver: AnyObject {
     func statusDidChange(status: NWPath.Status)
 }
 
-class NetworkCheck {
+public class NetworkCheck {
 
     struct NetworkChangeObservation {
         weak var observer: NetworkCheckObserver?
