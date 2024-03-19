@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Nilambur'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'This is just a demo.'
   s.description      = <<-DESC
                        A longer description of YourPodName in Markdown format.
