@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E25D5992BAAAC1B003539AE /* NetworkWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E25D5982BAAAC1B003539AE /* NetworkWrapper.swift */; };
 		3EF349092BA9B19B00530E76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF349082BA9B19B00530E76 /* AppDelegate.swift */; };
 		3EF3490B2BA9B19B00530E76 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF3490A2BA9B19B00530E76 /* SceneDelegate.swift */; };
 		3EF3490D2BA9B19B00530E76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF3490C2BA9B19B00530E76 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E25D5982BAAAC1B003539AE /* NetworkWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkWrapper.swift; sourceTree = "<group>"; };
 		3EF349052BA9B19B00530E76 /* Nilambur.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nilambur.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EF349082BA9B19B00530E76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3EF3490A2BA9B19B00530E76 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				3EF349082BA9B19B00530E76 /* AppDelegate.swift */,
 				3EF3490A2BA9B19B00530E76 /* SceneDelegate.swift */,
 				3EF3490C2BA9B19B00530E76 /* ViewController.swift */,
+				3E25D5982BAAAC1B003539AE /* NetworkWrapper.swift */,
 				3EF3491C2BA9BC8900530E76 /* NetworkCheck.swift */,
 				3EF3490E2BA9B19B00530E76 /* Main.storyboard */,
 				3EF349112BA9B19D00530E76 /* Assets.xcassets */,
@@ -144,6 +147,7 @@
 				3EF3490D2BA9B19B00530E76 /* ViewController.swift in Sources */,
 				3EF3491D2BA9BC8900530E76 /* NetworkCheck.swift in Sources */,
 				3EF349092BA9B19B00530E76 /* AppDelegate.swift in Sources */,
+				3E25D5992BAAAC1B003539AE /* NetworkWrapper.swift in Sources */,
 				3EF3490B2BA9B19B00530E76 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

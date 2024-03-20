@@ -58,6 +58,10 @@ public class NetworkCheck {
         let id = ObjectIdentifier(observer)
         observations.removeValue(forKey: id)
     }
+    
+    func doSomething() {
+        print("NetworkCheck | didSomething")
+    }
 
 }
 
