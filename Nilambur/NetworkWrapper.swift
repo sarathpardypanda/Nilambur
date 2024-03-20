@@ -10,7 +10,7 @@ import Network
 
 public class NetworkWrapper {
     public var networkStatus: NWPath.Status {
-        return NetworkCheck().currentStatus
+        return NetworkCheck.sharedInstance().currentStatus
     }
     
     public func doSomething() {
